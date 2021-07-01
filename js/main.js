@@ -12,7 +12,7 @@ window.addEventListener('scroll', _.throttle(function(){
     //배지 숨기기
     //gsap.to(요소, 지속시간, 옵션);
     gsap.to(badgeEl, .6, {
-      opacity: 0,
+      opacity: 0, 
       display: 'none'
     });
     //버튼 보이기!
